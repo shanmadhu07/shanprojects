@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./popup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <button class="butn1" onclick="handleclick()">Receive 50% Off COUPON</button>
+    
+    
+    <div id="nxt" class="section">
+        <h3>Grab your offer</h3>
+        <h2>50% Off</h2>
+        <p>Limited Period Offer.Grab The Deal</p>
+        <button class="butn" onclick="partclick()">X</button>
+    </div>
+    </div>
+    
+    <script>
+        var pen = document.getElementById("nxt")
+
+        function handleclick(){
+            pen.classList.add("more");
+        }
+        function  partclick(){
+            pen.classList.remove("more");
+        }
+        
+
+    </script>
+
+
+</body>
+</html>
