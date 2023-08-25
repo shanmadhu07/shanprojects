@@ -1,0 +1,31 @@
+
+
+
+.buttonparent{
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+
+
+.button1{
+    padding: 15px 15px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    background-color: brown;
+    color: black;
+    border: 3px white solid;
+    
+}
+.button1:hover{
+    background-color: white;
+    color: red;
+  
+}
+.df{
+    display: flex;
+}
+.jc{
+    justify-content: space-between;
+}
